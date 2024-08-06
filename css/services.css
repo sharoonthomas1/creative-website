@@ -1,0 +1,364 @@
+/* ?offcanva */
+
+
+.heading-change h5 {
+  padding-bottom: 20px;
+  color: #7b7b7b;
+}
+.heading-change {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*  */
+/* section */
+
+.bg-img {
+    background-image: url(/img/services-bg.jpg);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-1 {
+    width: 50%;
+}
+
+.main-heading {
+    color: #ffffff;
+    width: 80%;
+}
+
+.para {
+    color: #7a7a7a;
+    letter-spacing: .5px;
+    width: 70%;
+}
+
+.small-heading {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 11.8px;
+}
+
+.section-1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* section-2 */
+.img{
+    width:550px ;
+    height:370px ;
+}
+.sec2-heading{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.02;
+}
+.para-2 {
+    color: #7a7a7a;
+    letter-spacing: .5px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.svg-size{
+    height: 25px;
+    width: 35px;
+}
+.svg-heading{
+    color: #7a7a7a; 
+    /* font-size: 20px;  */
+}
+
+/*  */
+
+.section-third{
+    background-image: url(/img/bg34.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-block: 60px;
+    position: relative;
+    height: 700px;
+
+}
+.section-third::before{
+    position: absolute;
+    height:700px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #0064fa;
+}
+/*  */
+/* section-3 */
+.footer-background {
+  background-image: url(/img/footer-background.png);
+  position: relative;
+  background-size: cover;
+  height: 775px;
+  z-index: 1;
+
+}
+.box {
+  background-color: #0f0f11;
+
+}
+.bg-text {
+  position: absolute;
+  top: 468px;
+  left: 254px;
+} 
+
+.icon-div img {
+  height: 18px;
+  width: 18px;
+
+}
+.div-l a {
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 0.95em;
+  color: #7b7b7b;
+}
+.div-l a:hover{
+  color: #fff;
+  transition: color 0.3s;
+}
+.box {
+  background-color: #0f0f11; 
+  width: 100%;
+  padding: 12rem 0;
+}
+.footer-sec {
+  display: flex;
+}
+.last_sec {
+width: 50%;
+display: flex;
+justify-content: center;
+}
+  
+
+    /*last  */
+  
+      .scroll-bar{
+        border-radius: 7px;
+        background-color: #fff;
+        position: fixed;
+       bottom: 0;
+       right: 0;
+      
+      }
+      /*  */
+      .text-edit{
+        text-decoration: none;
+        color: #7b7b7b;
+        text-align: center;
+      }
+      /* RESPONSIVE */
+      @media (max-width: 320px)  {
+        .bg-img{
+          height: 700px;
+        }
+      .section-1{
+        width: 90%;
+        position: absolute;
+        top:130%!important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .para{
+      width: 100%;
+    }
+    .img {
+      width: 300px;
+      height: 198px;
+    }
+    
+    .icon-div{
+      padding-top: 20px;
+     }
+     .footer-sec{
+      display: block;
+    padding: 40px 0px 0px 80px!important;
+    }
+    .box{
+    padding: 6rem 0;
+    }
+    .footer-background {
+      height:300px ;
+      width:280px ;
+     }
+     .bg-text {
+    left: 10px;
+    top: 40px;
+    
+     }
+      .last_sec{
+      width: 100%;
+     }
+    
+    }
+     
+      
+      
+    @media (min-width: 321px) and (max-width: 376px) {
+        .bg-img{
+          height: 600px;
+        }
+        .para{
+          width: 100%;
+        }
+        .img {
+          width: 355px;
+          height: 234px;
+        }
+      .section-1{
+        width: 90%;
+        position: absolute;
+        top:130%!important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .icon-div{
+      padding-top: 20px;
+     }
+     .footer-sec{
+      display: block;
+    padding: 40px 0px 0px 80px!important;
+    }
+    .box{
+    padding: 6rem 0;
+    }
+    .footer-background {
+      height:400PX ;
+      width:100% ;
+      background-position: center;
+     }
+     .bg-text {
+    left: 20px;
+    top: 100px;
+    
+     }
+      .last_sec{
+      width: 100%;
+     }
+     .sec-2img{
+      width:350px;
+      }
+    }
+    
+    @media (max-width: 426px) and (min-width: 377px) {
+      .img {
+        width:400px;
+        height:270px;
+      }
+      .bg-img{
+        height: 600px;
+      }
+    .section-1{
+      width: 90%;
+      position: absolute;
+      top:130%!important;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .box{
+      padding: 6rem 0;
+      }
+      .footer-background {
+        height:400PX ;
+        width:100% ;
+       }
+       .bg-text {
+      left: 20px;
+      top: 100px;
+      
+       }
+        .last_sec{
+        width: 100%;
+       }
+       .btn-sec{
+        justify-content:space-around;
+      }
+      .footer-sec{
+        display: block;
+      padding: 40px 0px 0px 80px!important;
+      }
+    
+    }
+      @media (max-width: 768px) and (min-width: 427px) {
+        .bg-img{
+          height: 600px;
+        }
+      .section-1{
+        width: 90%;
+        position: absolute;
+        top:110%!important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img {
+      width: 300px;
+      height: 234px;
+    }
+    
+    .bg-text {
+      position: absolute;
+      top: 468px;
+      left:20px;
+    }
+    .footer-sec{
+      margin-top: 30px;
+    }
+    .box {
+      background-color: #0f0f11;
+      width: 100%;
+      padding: 4rem 0;
+    }
+      }
+      
+      @media (max-width: 1025px) and (min-width: 769px) {
+        .section-1{
+          width: 90%;
+          position: absolute;
+          top:110%!important;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+      .img {
+        width: 450px;
+        height: 321px;
+      }
+     
+      .bg-text {
+        position: absolute;
+        top: 468px;
+        left:20px;
+      }
+      }
+    
+      @media (max-width: 1441px) and (min-width: 1026px) {
+        .section-1{
+          width: 90%;
+          position: absolute;
+          top:110%!important;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
+      .bg-text {
+        position: absolute;
+        top: 468px;
+        left:20px;
+      }
+    
+      }
